@@ -1,3 +1,31 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container-fluid">
+<div class="row">
+    <div class="col-xs-6 col-xs-offset-2 col-sm-6 col-sm-offset-2 col-md-6 col-md-offset-2 col-lg-6 col-lg-offset-2">
+        <img class="center-block" alt="Fujitsu K5 Logo" src="src/app/_static/images/logo.svg" />
+    </div>
+</div>
+
+<!-- main app container -->
+<div class="jumbotron">
+    <div class="container">
+        <div class="col-xs-6 col-xs-offset-2 col-sm-6 col-sm-offset-2 col-md-6 col-md-offset-2 col-lg-6 col-lg-offset-2">
+            <alert></alert>
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>
+
+<!-- credits -->
+<div class="row">
+   <div class="text-center col-xs-6 col-xs-offset-2 col-sm-6 col-sm-offset-2 col-md-6 col-md-offset-2 col-lg-6 col-lg-offset-2">
+        <p>
+            <a href="http://github.com/allthingsclowd" target="_top">Angular 4 Fujitsu K5/OpenStack User Login Example</a>
+        </p>
+        <p>
+            <a href="https://allthingscloud.eu" target="_top">See Graham's Blog @ https://allthingscloud.eu</a>
+        </p>
+        <p>
+            <small><a href="http://jasonwatmore.com/post/2016/09/29/angular-2-user-registration-and-login-example-tutorial" target="_top">Thanks to Jason Watmore for original article</a></small>
+        </p>
+   </div>
+</div>
