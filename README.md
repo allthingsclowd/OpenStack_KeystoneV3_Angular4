@@ -1,6 +1,6 @@
 # KeystoneV3 Angular 4
 
-Author: Graham Land
+Author: Graham J Land
 
 Date: 01/04/2017
 
